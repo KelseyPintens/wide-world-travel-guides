@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header';
 import Body from './Body';
+import Books from './Books';
 import Footer from './Footer';
 
 class App extends Component {
@@ -11,6 +12,9 @@ class App extends Component {
       <div className="App">
         <Header title="World Wide Travel, Inc" />
         <Body />
+        <div>Books</div>
+        <Books />
+        <div>Travel Guides</div>
         <footer className="footer">
           <Footer className="trip" url="http://www.travelandleisure.com/travel-guide/monaco" destination="Monaco"/> 
           <Footer className="trip" url="http://www.travelandleisure.com/travel-guide/barcelona" destination="Barcelona"/>

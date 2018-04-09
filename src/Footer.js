@@ -3,7 +3,9 @@ import './App.css';
 
 function Footer(props){
     return (
-        <h4><a href={props.url}>{props.destination}</a></h4>
+        <div>
+            <h4><a href={props.url}>{props.destination}</a></h4>
+        </div>
     )
 }
 
