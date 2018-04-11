@@ -5,6 +5,7 @@ import Header from './Header';
 import Body from './Body';
 import Books from './Books';
 import Footer from './Footer';
+import Weather from './Weather';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Body />
         <div>Books</div>
         <Books />
+        <Weather />
         <div>Travel Guides</div>
         <footer className="footer">
           <Footer className="trip" url="http://www.travelandleisure.com/travel-guide/monaco" destination="Monaco"/> 
